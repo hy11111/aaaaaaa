@@ -1,53 +1,7 @@
 <html>
-  <style type="text/css">
-  a:link,a:visited{
-   text-decoration:none;  /*超链接无下划线*/
-   }
-  a:hover{
-  text-decoration:underline;  /*鼠标放上去有下划线*/
-   }
-img{  
-                border: #000 solid 2px;  
-                display: block;  
-                margin: 50px auto;  
-                border-radius: 50%;  
-                transition: all 5.0s;  
-            }  
-            img:hover{  
-                transform: rotate(360deg);  
-            }  
+  <head>
+    </head>
+  <body>
+    aaaaaa
 
-</style>
-<script>
-window.onload = function(){ 
-     var audio = document.getElementById('music');
-         audio.pause();//打开页面时无音乐
-}
-function play() {
-    var audio = document.getElementById('music');
-    if (audio.paused) {
-        audio.play();
-        document.getElementById('musicImg').src="3.png";
-    }else{
-        audio.pause();
-        audio.currentTime = 0;//音乐从头播放
-        document.getElementById('musicImg').src="3.png";
-    }
-}
-</script>
-      <head>
-          <title><font face="楷体" size=6 color="#191970">Scripts</font></title>
-          <br><br>
-          <h1 align=center><font face="楷体" size=14 color="#FF00FF">Let's enjoy it!</font></h1>
-          <h1 align=center><font face="楷体" size=6 color="#FF00FF">点击它</font></h1>
-    <audio id="music" src="1.mp3" loop="loop" autoplay></audio>
-    <img  id="musicImg" align="middle" class="img" style="vertical-align:middle;"onClick="play()" alt="musicImg"/ src="3.png">  
-        <body style="background-color:black">
-            <marquee> 
-　
-　　        </marquee> 
-        </body>
-        
-  </head>
-    
-</html>
+    </body></html>
